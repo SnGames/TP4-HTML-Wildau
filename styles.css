@@ -1,0 +1,169 @@
+* {
+    font-family: Calibri, Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#act {
+    display: inline-block;
+    border: 2px dashed #555;
+    background-color: #EEE;
+    padding: 10px;
+    width: 45%;
+    margin-left: 40px;
+    font-family: Calibri;
+    font-weight: bold;
+    color: #555;
+    z-index: 1000;
+    font-size: 40px;
+    text-align: center;
+}
+.navbutton {
+    display: inline-block;
+    background-color: #FFF;
+    border: 1px dashed #CCC;
+    padding: 10px;
+    width: 45%;
+    font-family: Calibri;
+    font-weight: bold;
+    color: #555;
+    z-index: 1000;
+    font-size: 40px;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 1%;
+}
+.navbutton:hover {
+    background-color: #eee;
+}
+.navbutton:active {
+    background-color: #bbb;
+}
+
+section {
+    padding: 10px 20px 10px 20px;
+    border-bottom: 2px dashed #555;
+}
+article {
+    width: 300px;
+    height: 100%;
+    margin-left: 20px;
+}
+article div {
+    display: none;
+}
+.demons:hover article div {
+    display: inline-block;
+}
+
+#wrapper {
+    padding: 10px;
+}
+
+.bold {
+	font-weight: bold;
+}
+.italic {
+	font-style: italic;
+}
+.underline {
+	text-decoration: underline #666;
+	text-decoration-thickness: 2px;
+}
+.centerimg {
+    margin: 10px auto 10px;
+    display: block;
+}
+
+.subtitulo {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline #000000;
+	text-decoration-thickness: 2px;
+    font-size: 30px;
+}
+
+.demons {
+    border-radius: 20px;
+    width: 100%;
+    border: 1px solid #666;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #222;
+    color: #fff;
+}
+.demons:hover .alpha{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.alpha {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-shadow: 2px 2px 5px #000;
+    transition: 0.6s;
+}
+.demon_thn {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+}
+.demon_img{
+    margin-right: 20px;
+}
+.demon_img + .demon_info {
+    margin-left: 10px;
+}
+.demon_info {
+    padding: 0 10px;
+    width: 200px;
+    display: inline-block;
+}
+.demons + .demons {
+    margin-top: 30px;
+}
+
+#acropolis {
+    background-image: url('Imagenes/Gameplay/acropolis.png');
+}
+#miku {
+    background-image: url("Imagenes/Gameplay/mikumikumikumiku.webp");
+}
+#litfuse, #deadlyclub {
+    color: #000;
+    background-image: url("Imagenes/Gameplay/lit_fuse.webp");
+}
+#litfuse .alpha, #deadlyclub .alpha {
+    text-shadow: 2px 2px 5px #fff;
+}
+#supersonic {
+    background-image: url("Imagenes/Gameplay/supersonic.png");
+}
+#ultmix {
+    background-image: url("Imagenes/Gameplay/ultimate_demon_mix.jpg");
+}
+#wlandscape {
+    background-image: url("Imagenes/Gameplay/windy_landscape.jpg");
+}
+#deadlyclub {
+    background-image: url("Imagenes/Gameplay/deadly_clubstep.png");
+}
+#silhouette {
+    background-image: url("Imagenes/Gameplay/silhouette.jpg");
+}
+#futurefunk {
+    background-image: url("Imagenes/Gameplay/future_funk.jpg");
+}
+#aleph0 {
+    background-image: url("Imagenes/Gameplay/aleph_0.jpg");
+}

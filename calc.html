@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>Calculadora</title>
+		
+		<link rel="stylesheet" href="./styles2.css">
+        <script src="script.js"></script>
+	</head>
+	
+	<body>
+        <nav>
+            <a href="demons.html"><div class="navbutton">Top 10 Hardest GD</div></a>
+            <a href="calc.html"><div id="act" >Calculadora</div></a>
+        </nav>
+		<table id="calc">
+            <tr>
+                <td colspan="3" id="visor"></td>
+            </tr>
+            <tr>
+                <td onclick="set_number(1)">1</td>
+                <td onclick="set_number(2)">2</td>
+                <td onclick="set_number(3)">3</td>
+            </tr>
+            <tr>
+                <td onclick="set_number(4)">4</td>
+                <td onclick="set_number(5)">5</td>
+                <td onclick="set_number(6)">6</td>
+            </tr>
+            <tr>
+                <td onclick="set_number(7)">7</td>
+                <td onclick="set_number(8)">8</td>
+                <td onclick="set_number(9)">9</td>
+            </tr>
+        </table>
+
+        <table id="op">
+            <tr>
+                <td onclick="set_op('C')">C</td>
+                <td onclick="set_op('+')">+</td>
+                <td onclick="set_op('-')">-</td>
+            </tr>
+            <tr>
+                <td onclick="set_op('*')">*</td>
+                <td onclick="set_op('/')">/</td>
+                <td onclick="set_number(10)">10</td>
+            </tr>
+        </table>
+
+        <script>
+            setInterval(calc(), 50);
+        </script>
+	</body>
+</html>

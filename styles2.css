@@ -1,0 +1,101 @@
+* {
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 20px;
+}
+
+#act {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    height: 8%;
+    border: 2px dashed #555;
+    background-color: #EEE;
+    padding: 10px;
+    width: 45%;
+    margin-left: 40px;
+    font-family: Calibri;
+    font-weight: bold;
+    color: #555;
+    z-index: 1000;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 1%;
+}
+.navbutton {
+    display: inline-block;
+    top: 20px;
+    left: 30px;
+    height: 8%;
+    background-color: #FFF;
+    border: 1px dashed #CCC;
+    padding: 10px;
+    width: 45%;
+    font-family: Calibri;
+    font-weight: bold;
+    color: #555;
+    z-index: 1000;
+    font-size: 40px;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.navbutton:hover {
+    background-color: #eee;
+}
+.navbutton:active {
+    background-color: #bbb;
+}
+
+body {
+    background-color: #fff;
+}
+
+div {
+    border: 2px #999 solid;
+    position: absolute;
+    padding: 20px;
+    width: 20%;
+    height: 75%;
+    top: 50%;
+    left: 50%;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+td {
+    border: 2px #999 solid;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+td:hover {
+    background-color: #eee;
+}
+td:active {
+    background-color: #bbb;
+}
+#visor, #visor:hover, #visor:active {
+    height: 60px;
+    cursor: default;
+    text-align: right;
+    padding: 0 20px;
+    background-color: #fff;
+    font-family: monospace;
+}
+
+#calc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+#op {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+}
